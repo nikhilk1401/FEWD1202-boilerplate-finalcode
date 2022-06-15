@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    text-align: center; /* Align all the text to center*/
+    text-align: center; /* Iteration 2: Align all the text to center*/
     box-sizing: border-box;
 }
 .container {
@@ -13,29 +13,32 @@
     background: linear-gradient(135deg, rgb(255, 24, 74), violet);
 }
 #heading {
-    width: auto;
     letter-spacing: 1px;
     margin-bottom: 30px;
 }
 .category {
-    width: 100%; /* make width 100% */
-    height: auto; /* Apply height value to 'auto'*/
+    width: 100%; /* Iteration 3: make width 100% */
+    height: auto; /* Iteration 4: Apply height value to 'auto'*/
     padding: 3pc 0 1.5pc 0;
 }
 .category ul {
     width: 100%;
 }
 .category ul li {
-    display: inline; /* Make elements display 'inline'*/
-    margin: 3px; /* display the list items in vertical order */
+    display: inline; /* Iteration 5: Make elements display 'inline'*/
+    margin: 3px; /* Iteration 6: display the list items in vertical order */
 }
-.category ul li a {
-    color: black; /* make color to black */
-    font-weight: bold; /* Make text bold*/
+a {
+    color: black; /* Iteration 7: make color to black */
+    font-weight: bold; /* Iteration 8: Make text bold*/
     letter-spacing: 1px;
     padding: 10px 100px;
-    text-decoration: none; /* remove the text-decoration for the links */
-    background: rgba(255, 255, 0, 0.835); /* Apply background with color 'rgba(255, 255, 0, 0.835)' */
+    text-decoration: none; /* Iteration 9: remove the text-decoration for the links */
+    background-color: rgba(255, 255, 0, 0.835); /* Iteration 10: Apply background with color 'rgba(255, 255, 0, 0.835)' */
+}
+/* Iteration 11: Create a state, when hovered on a link the background-color should change to 'rgba(212, 212, 7, 0.959)'*/
+a:hover {
+    background-color: rgba(212, 212, 7, 0.959);
 }
 .item,
 .aminties {
@@ -43,7 +46,8 @@
     height: auto;
 }
 .item-image img {
-    width: 100%; /* Use appropriate properties to fit the image perfectly to the element*/
+    /* Iteration 12: Apply '100%' value to both Width and height to fit the image perfectly to the page*/
+    width: 100%; 
     height: 100%;
 }
 .item-image,
@@ -59,10 +63,12 @@
     height: 100%;
     background: rgba(255, 255, 0, 0.835);
 }
+/* Iteration 13: Create a selector 'h1' and give 'font-weight of 600' and 'font-size of 2.5pc' */
 h1 {
     font-weight: 600;
-    font-size: 2.5pc; /* Make font-size to 2.5pc*/
+    font-size: 2.5pc;
 }
+/* Iteration 14: Create a selector 'p' and give 'font-weight of 600' */
 p {
     font-weight: 500;
 }
@@ -73,6 +79,6 @@ p {
     width: 100%;
     height: auto;
     padding: 10px;
-    text-align: center; /* Align the elements to the center */
-    background: white; /* Make background-color to white */
+    text-align: center; /* Iteration 15: Align the elements to the center */
+    background: white; /* Iteration 16: Make background-color to white */
 }
