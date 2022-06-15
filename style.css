@@ -45,8 +45,8 @@ a:hover {
     width: 100%;
     height: auto;
 }
+/* Iteration 12: Style image located in 'item-image' class by giving 'width' and 'height' values '100%' that fit perfectly to the page */
 .item-image img {
-    /* Iteration 12: Apply '100%' value to both Width and height to fit the image perfectly to the page*/
     width: 100%; 
     height: 100%;
 }
