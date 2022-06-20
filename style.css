@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Audiowide&family=Black+Ops+One&family=Chakra+Petch:wght@300;400;500;600;700&family=Courgette&family=Electrolize&family=Hahmlet:wght@100;200;400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Press+Start+2P&family=Roboto+Serif:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800&family=Skranji:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Iteration 3: Use appropriate property to align the text to center */
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins',sans-serif;
+    background: linear-gradient(135deg, rgb(255, 24, 74), violet);
+}
+.category {
+    width: 100%; 
+    height: auto; 
+    padding: 30px 0 15px 0;
+}
+.category ul {
+    width: 100%;
+}
+.category ul li {
+    display: inline; /* Iteration 4: Use appropriate property to display list items horizontally */
+}
+.category ul li {
+    font-weight: bold; /* Iteration 5: Use appropriate property to change text to bold */
+    letter-spacing: 1px;
+    padding: 10px 100px;
+    background-color: rgba(255, 255, 0, 0.835); /* Iteration 6: Use appropriate property to change background color to 'rgba(255, 255, 0, 0.835)' */
+}
+/* Iteration 7: Use appropriate state, when hovered on a list item the background color should change to 'rgba(212, 212, 7, 0.959)'*/
+.category ul li:hover {
+    background-color: rgba(212, 212, 7, 0.959);
+}
+.item,
+.amenities {
+    width: 100%;
+    height: auto;
+}
+/* Iteration 8: Style image based on their location by giving width and height values '100%' */
+.item-image img {
+    width: 100%; 
+    height: 100%;
+}
+.item-image,
+.item-price,
+.img {
+    width: 100%;
+    height: auto;
+}
+.item-price {
+    background: rgba(255, 255, 0, 0.835);
+}
+.item-price span {
+    height: 100%;
+    background: rgba(255, 255, 0, 0.835);
+}
+/* Iteration 9: Use appropriate heading selector and give font weight '600' , font size of '40px' and '1px' space between letters */
+h1 {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+/* Iteration 10: use appropriate paragraph selector and give font weight '600' */
+p {
+    font-weight: 500;
+}
+.amenities {
+    padding: 2pc 0;
+}
+.one {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background: white; /* Iteration 11: Use appropriate property to change background color to 'white' */
+}
